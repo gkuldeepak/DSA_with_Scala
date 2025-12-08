@@ -1,8 +1,8 @@
 package com.dsa.mathematics
 
-object HCF extends App {
+object LCM extends App {
 
-  def getHCF(number1: Int, number2: Int): Int = {
+  def getLCM(number1: Int, number2: Int): Int = {
     (number1 * number2) / getGCD(number1, number2)
   }
 
@@ -11,6 +11,6 @@ object HCF extends App {
     else getGCD(number2, number1 % number2)
   }
 
-  println(getHCF(10, 5))
+  println(getLCM(10, 5))
 
 }
