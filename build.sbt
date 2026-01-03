@@ -4,5 +4,6 @@ ThisBuild / scalaVersion := "2.13.14"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "DSA_with_Scala"
+    name := "DSA_with_Scala",
+    scalafmtOnCompile := true
   )
